@@ -1,4 +1,4 @@
-// import User from 'user'
+// import {user} from 'user';
 
 class Es6Test{
 	constructor(){
@@ -17,10 +17,18 @@ et.dispName();
 et.dispCity();
 
 class User extends Es6Test {
-	dispContry(){
-		console.log(`contry is india`);
+	getUser(){
+		fetch('https://raw.githubusercontent.com/theranjitkumar/jsonData/master/jsonData.json')
+		  .then((res)=>{
+		  res.json().then((result)=>{
+		    console.log(result)
+		  })
+		}).catch((err)=>{
+		  console.log(err);
+		}); 
 	}
+
 }
 var u = new User();
-u.dispCity();
-u.dispContry();
+u.dispName();
+u.getUser();
