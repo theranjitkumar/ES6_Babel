@@ -1,6 +1,14 @@
 # ES6_Test
-<p style="color:green;"> prerequest:- nodejs should be install </p>
-run - npm install <br>
-babel src --out-dir lib -w <br>
-Run this project in any http server <br>
+
+### prerequest:
+nodejs should be install 
+
+### Run Project
+run - npm install
+
+babel src --out-dir lib -w
+OR
+npm start
+
+Note: Run this project in any http server <br>
 go to brouser console to get output

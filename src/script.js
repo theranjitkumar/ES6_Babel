@@ -18,7 +18,7 @@ et.dispCity();
 
 class User extends Es6Test {
 	getUser(){
-		fetch('https://raw.githubusercontent.com/theranjitkumar/jsonData/master/jsonData.json')
+		fetch('https://jsonplaceholder.typicode.com/todos')
 		  .then((res)=>{
 		  res.json().then((result)=>{
 		    console.log(result)
