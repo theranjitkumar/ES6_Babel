@@ -12,9 +12,9 @@ class Es6Test{
     }    
 }
 
-var et = new Es6Test();
-et.dispName();
-et.dispCity();
+// var et = new Es6Test();
+// et.dispName();
+// et.dispCity();
 
 class User extends Es6Test {
 	getUser(){
